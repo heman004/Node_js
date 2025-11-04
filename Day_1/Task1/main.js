@@ -1,6 +1,9 @@
-import dude from "./dude";
+import dude, { divide, multi, sub } from "./dude.js";
 
+console.log( dude( 10 , 10  ) );
 
-const result = dude( arav + meera );
+console.log( sub(  20, 10 ) );
 
-console.log( result + "husband and wife" )
+console.log( multi( 10 , 20 ) );
+
+console.log( divide( 200, 10 ) ); 
