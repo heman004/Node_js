@@ -4,7 +4,7 @@ const myUrl ="https://7man.co.in/products/mens-stylish-regular-fit-cargo-pant-bl
 
 const parsedUrl = url.parse( myUrl, true );
 
-console.log(parsedUrl);
+// console.log(parsedUrl);
 
 console.log("profocol :", parsedUrl.protocol);
 
@@ -16,4 +16,4 @@ console.log("Query :", parsedUrl.query);
 
 console.log("Product Id :", parsedUrl.query.pid);
 
-console.log( "color :", parsedUrl.query.color )
+console.log( "color :", parsedUrl.query.color );

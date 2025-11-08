@@ -1,6 +1,6 @@
 const path = require("path");
 
-console.log(path);
+// console.log(path);
 
 const filePath = "D:/Backend/Sla_Node/Day_3/Path";
 
